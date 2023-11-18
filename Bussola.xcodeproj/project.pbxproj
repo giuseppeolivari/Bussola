@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061561092B08C17C00C178E3 /* BussolaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561082B08C17C00C178E3 /* BussolaApp.swift */; };
+		0615610B2B08C17C00C178E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615610A2B08C17C00C178E3 /* ContentView.swift */; };
+		0615610D2B08C17D00C178E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0615610C2B08C17D00C178E3 /* Assets.xcassets */; };
+		061561102B08C17D00C178E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0615610F2B08C17D00C178E3 /* Preview Assets.xcassets */; };
+		0615611A2B08C17D00C178E3 /* BussolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561192B08C17D00C178E3 /* BussolaTests.swift */; };
+		061561242B08C17D00C178E3 /* BussolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561232B08C17D00C178E3 /* BussolaUITests.swift */; };
+		061561262B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		061561162B08C17D00C178E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061560FD2B08C17C00C178E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061561042B08C17C00C178E3;
+			remoteInfo = Bussola;
+		};
+		061561202B08C17D00C178E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061560FD2B08C17C00C178E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061561042B08C17C00C178E3;
+			remoteInfo = Bussola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061561052B08C17C00C178E3 /* Bussola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bussola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		061561082B08C17C00C178E3 /* BussolaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaApp.swift; sourceTree = "<group>"; };
+		0615610A2B08C17C00C178E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0615610C2B08C17D00C178E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0615610F2B08C17D00C178E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		061561152B08C17D00C178E3 /* BussolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		061561192B08C17D00C178E3 /* BussolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaTests.swift; sourceTree = "<group>"; };
+		0615611F2B08C17D00C178E3 /* BussolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		061561232B08C17D00C178E3 /* BussolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITests.swift; sourceTree = "<group>"; };
+		061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		061561022B08C17C00C178E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061561122B08C17D00C178E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0615611C2B08C17D00C178E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061560FC2B08C17C00C178E3 = {
+			isa = PBXGroup;
+			children = (
+				061561072B08C17C00C178E3 /* Bussola */,
+				061561182B08C17D00C178E3 /* BussolaTests */,
+				061561222B08C17D00C178E3 /* BussolaUITests */,
+				061561062B08C17C00C178E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		061561062B08C17C00C178E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				061561052B08C17C00C178E3 /* Bussola.app */,
+				061561152B08C17D00C178E3 /* BussolaTests.xctest */,
+				0615611F2B08C17D00C178E3 /* BussolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		061561072B08C17C00C178E3 /* Bussola */ = {
+			isa = PBXGroup;
+			children = (
+				061561082B08C17C00C178E3 /* BussolaApp.swift */,
+				0615610A2B08C17C00C178E3 /* ContentView.swift */,
+				0615610C2B08C17D00C178E3 /* Assets.xcassets */,
+				0615610E2B08C17D00C178E3 /* Preview Content */,
+			);
+			path = Bussola;
+			sourceTree = "<group>";
+		};
+		0615610E2B08C17D00C178E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0615610F2B08C17D00C178E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		061561182B08C17D00C178E3 /* BussolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				061561192B08C17D00C178E3 /* BussolaTests.swift */,
+			);
+			path = BussolaTests;
+			sourceTree = "<group>";
+		};
+		061561222B08C17D00C178E3 /* BussolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				061561232B08C17D00C178E3 /* BussolaUITests.swift */,
+				061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */,
+			);
+			path = BussolaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		061561042B08C17C00C178E3 /* Bussola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061561292B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "Bussola" */;
+			buildPhases = (
+				061561012B08C17C00C178E3 /* Sources */,
+				061561022B08C17C00C178E3 /* Frameworks */,
+				061561032B08C17C00C178E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bussola;
+			productName = Bussola;
+			productReference = 061561052B08C17C00C178E3 /* Bussola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		061561142B08C17D00C178E3 /* BussolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0615612C2B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "BussolaTests" */;
+			buildPhases = (
+				061561112B08C17D00C178E3 /* Sources */,
+				061561122B08C17D00C178E3 /* Frameworks */,
+				061561132B08C17D00C178E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061561172B08C17D00C178E3 /* PBXTargetDependency */,
+			);
+			name = BussolaTests;
+			productName = BussolaTests;
+			productReference = 061561152B08C17D00C178E3 /* BussolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0615611E2B08C17D00C178E3 /* BussolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0615612F2B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "BussolaUITests" */;
+			buildPhases = (
+				0615611B2B08C17D00C178E3 /* Sources */,
+				0615611C2B08C17D00C178E3 /* Frameworks */,
+				0615611D2B08C17D00C178E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061561212B08C17D00C178E3 /* PBXTargetDependency */,
+			);
+			name = BussolaUITests;
+			productName = BussolaUITests;
+			productReference = 0615611F2B08C17D00C178E3 /* BussolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		061560FD2B08C17C00C178E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					061561042B08C17C00C178E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					061561142B08C17D00C178E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 061561042B08C17C00C178E3;
+					};
+					0615611E2B08C17D00C178E3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 061561042B08C17C00C178E3;
+					};
+				};
+			};
+			buildConfigurationList = 061561002B08C17C00C178E3 /* Build configuration list for PBXProject "Bussola" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 061560FC2B08C17C00C178E3;
+			productRefGroup = 061561062B08C17C00C178E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				061561042B08C17C00C178E3 /* Bussola */,
+				061561142B08C17D00C178E3 /* BussolaTests */,
+				0615611E2B08C17D00C178E3 /* BussolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061561032B08C17C00C178E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061561102B08C17D00C178E3 /* Preview Assets.xcassets in Resources */,
+				0615610D2B08C17D00C178E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061561132B08C17D00C178E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0615611D2B08C17D00C178E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		061561012B08C17C00C178E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0615610B2B08C17C00C178E3 /* ContentView.swift in Sources */,
+				061561092B08C17C00C178E3 /* BussolaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061561112B08C17D00C178E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0615611A2B08C17D00C178E3 /* BussolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0615611B2B08C17D00C178E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061561262B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift in Sources */,
+				061561242B08C17D00C178E3 /* BussolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		061561172B08C17D00C178E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061561042B08C17C00C178E3 /* Bussola */;
+			targetProxy = 061561162B08C17D00C178E3 /* PBXContainerItemProxy */;
+		};
+		061561212B08C17D00C178E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061561042B08C17C00C178E3 /* Bussola */;
+			targetProxy = 061561202B08C17D00C178E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061561272B08C17D00C178E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		061561282B08C17D00C178E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0615612A2B08C17D00C178E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bussola/Preview Content\"";
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.Bussola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0615612B2B08C17D00C178E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bussola/Preview Content\"";
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.Bussola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0615612D2B08C17D00C178E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.BussolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bussola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bussola";
+			};
+			name = Debug;
+		};
+		0615612E2B08C17D00C178E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.BussolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bussola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bussola";
+			};
+			name = Release;
+		};
+		061561302B08C17D00C178E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.BussolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bussola;
+			};
+			name = Debug;
+		};
+		061561312B08C17D00C178E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQMJRDV4LZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.BussolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bussola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061561002B08C17C00C178E3 /* Build configuration list for PBXProject "Bussola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061561272B08C17D00C178E3 /* Debug */,
+				061561282B08C17D00C178E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061561292B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "Bussola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0615612A2B08C17D00C178E3 /* Debug */,
+				0615612B2B08C17D00C178E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0615612C2B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "BussolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0615612D2B08C17D00C178E3 /* Debug */,
+				0615612E2B08C17D00C178E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0615612F2B08C17D00C178E3 /* Build configuration list for PBXNativeTarget "BussolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061561302B08C17D00C178E3 /* Debug */,
+				061561312B08C17D00C178E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 061560FD2B08C17C00C178E3 /* Project object */;
+}
