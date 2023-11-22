@@ -174,7 +174,8 @@ struct ContentView : View {
                 
                 NavigationLink(destination: Posizione()) {
                     Image(systemName: "map")
-                        .foregroundColor(Color(hue: 0.541, saturation: 0.998, brightness: 0.406))
+                        .foregroundColor(.colorMap)
+                    /*.foregroundColor(Color(red: 0.007, green: 0.311, blue: 0.41, opacity: 0.88)) */
                         .font(.system(size: 50))
                 }.padding(.top, 60.0).accessibilityLabel("Map").accessibilityHint("This button opens the map")
                 
