@@ -14,6 +14,11 @@
 		0615611A2B08C17D00C178E3 /* BussolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561192B08C17D00C178E3 /* BussolaTests.swift */; };
 		061561242B08C17D00C178E3 /* BussolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561232B08C17D00C178E3 /* BussolaUITests.swift */; };
 		061561262B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */; };
+		061561332B08C1B400C178E3 /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561322B08C1B400C178E3 /* CompassHeading.swift */; };
+		061561352B08C1D100C178E3 /* Logic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561342B08C1D100C178E3 /* Logic1.swift */; };
+		061561372B08C1E900C178E3 /* Logic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561362B08C1E900C178E3 /* Logic2.swift */; };
+		0615613E2B09125800C178E3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615613D2B09125800C178E3 /* SwiftUIView.swift */; };
+		063599D72B0B77FB00394666 /* Posizione.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063599D62B0B77FB00394666 /* Posizione.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		061561052B08C17C00C178E3 /* Bussola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bussola.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		061561082B08C17C00C178E3 /* BussolaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaApp.swift; sourceTree = "<group>"; };
-		0615610A2B08C17C00C178E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		061561082B08C17C00C178E3 /* BussolaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BussolaApp.swift; path = Bussola/BussolaApp.swift; sourceTree = SOURCE_ROOT; };
+		0615610A2B08C17C00C178E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		0615610C2B08C17D00C178E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0615610F2B08C17D00C178E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		061561152B08C17D00C178E3 /* BussolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,14 @@
 		0615611F2B08C17D00C178E3 /* BussolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		061561232B08C17D00C178E3 /* BussolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITests.swift; sourceTree = "<group>"; };
 		061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		061561322B08C1B400C178E3 /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompassHeading.swift; path = ../../CompassHeading.swift; sourceTree = "<group>"; };
+		061561342B08C1D100C178E3 /* Logic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic1.swift; sourceTree = "<group>"; };
+		061561362B08C1E900C178E3 /* Logic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic2.swift; sourceTree = "<group>"; };
+		0615613C2B09118600C178E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0615613D2B09125800C178E3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		063599D62B0B77FB00394666 /* Posizione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posizione.swift; sourceTree = "<group>"; };
+		065C96642B097A16009CDE67 /* Bussola.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bussola.entitlements; sourceTree = "<group>"; };
+		065C96652B097AF6009CDE67 /* BussolaRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BussolaRelease.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +107,16 @@
 		061561072B08C17C00C178E3 /* Bussola */ = {
 			isa = PBXGroup;
 			children = (
+				065C96652B097AF6009CDE67 /* BussolaRelease.entitlements */,
+				065C96642B097A16009CDE67 /* Bussola.entitlements */,
+				0615613C2B09118600C178E3 /* Info.plist */,
 				061561082B08C17C00C178E3 /* BussolaApp.swift */,
+				0615613D2B09125800C178E3 /* SwiftUIView.swift */,
 				0615610A2B08C17C00C178E3 /* ContentView.swift */,
+				061561342B08C1D100C178E3 /* Logic1.swift */,
+				061561362B08C1E900C178E3 /* Logic2.swift */,
+				063599D62B0B77FB00394666 /* Posizione.swift */,
+				061561322B08C1B400C178E3 /* CompassHeading.swift */,
 				0615610C2B08C17D00C178E3 /* Assets.xcassets */,
 				0615610E2B08C17D00C178E3 /* Preview Content */,
 			);
@@ -257,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061561332B08C1B400C178E3 /* CompassHeading.swift in Sources */,
+				0615613E2B09125800C178E3 /* SwiftUIView.swift in Sources */,
 				0615610B2B08C17C00C178E3 /* ContentView.swift in Sources */,
+				061561352B08C1D100C178E3 /* Logic1.swift in Sources */,
+				063599D72B0B77FB00394666 /* Posizione.swift in Sources */,
 				061561092B08C17C00C178E3 /* BussolaApp.swift in Sources */,
+				061561372B08C1E900C178E3 /* Logic2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +373,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -404,6 +432,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -419,24 +449,36 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bussola/Bussola.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bussola/Preview Content\"";
 				DEVELOPMENT_TEAM = XQMJRDV4LZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bussola/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = prova;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "prova richiesta posizione";
+				INFOPLIST_KEY_NSLocationUsageDescription = prova;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Abbiamo bisogno della tua posizione per...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.Bussola;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.prova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,24 +490,36 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bussola/BussolaRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bussola/Preview Content\"";
 				DEVELOPMENT_TEAM = XQMJRDV4LZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bussola/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = prova;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "prova richiesta posizione";
+				INFOPLIST_KEY_NSLocationUsageDescription = prova;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Abbiamo bisogno della tua posizione per...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.Bussola;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuseppeolivari.prova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
