@@ -53,3 +53,6 @@ extension LocationManager: CLLocationManagerDelegate {
    }
 }
 
+#Preview {
+    Posizione()
+}
