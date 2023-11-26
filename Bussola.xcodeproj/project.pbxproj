@@ -14,11 +14,11 @@
 		0615611A2B08C17D00C178E3 /* BussolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561192B08C17D00C178E3 /* BussolaTests.swift */; };
 		061561242B08C17D00C178E3 /* BussolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561232B08C17D00C178E3 /* BussolaUITests.swift */; };
 		061561262B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */; };
-		061561332B08C1B400C178E3 /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561322B08C1B400C178E3 /* CompassHeading.swift */; };
 		061561352B08C1D100C178E3 /* Logic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561342B08C1D100C178E3 /* Logic1.swift */; };
 		061561372B08C1E900C178E3 /* Logic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061561362B08C1E900C178E3 /* Logic2.swift */; };
 		0615613E2B09125800C178E3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615613D2B09125800C178E3 /* SwiftUIView.swift */; };
 		063599D72B0B77FB00394666 /* Posizione.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063599D62B0B77FB00394666 /* Posizione.swift */; };
+		06C3FB0E2B13E8F200B6234F /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3FB0D2B13E8F200B6234F /* CompassHeading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		0615611F2B08C17D00C178E3 /* BussolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		061561232B08C17D00C178E3 /* BussolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITests.swift; sourceTree = "<group>"; };
 		061561252B08C17D00C178E3 /* BussolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		061561322B08C1B400C178E3 /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompassHeading.swift; path = ../../CompassHeading.swift; sourceTree = "<group>"; };
 		061561342B08C1D100C178E3 /* Logic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic1.swift; sourceTree = "<group>"; };
 		061561362B08C1E900C178E3 /* Logic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic2.swift; sourceTree = "<group>"; };
 		0615613C2B09118600C178E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		063599D62B0B77FB00394666 /* Posizione.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posizione.swift; sourceTree = "<group>"; };
 		065C96642B097A16009CDE67 /* Bussola.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bussola.entitlements; sourceTree = "<group>"; };
 		065C96652B097AF6009CDE67 /* BussolaRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BussolaRelease.entitlements; sourceTree = "<group>"; };
+		06C3FB0D2B13E8F200B6234F /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				0615610A2B08C17C00C178E3 /* ContentView.swift */,
 				061561342B08C1D100C178E3 /* Logic1.swift */,
 				061561362B08C1E900C178E3 /* Logic2.swift */,
+				06C3FB0D2B13E8F200B6234F /* CompassHeading.swift */,
 				063599D62B0B77FB00394666 /* Posizione.swift */,
-				061561322B08C1B400C178E3 /* CompassHeading.swift */,
 				0615610C2B08C17D00C178E3 /* Assets.xcassets */,
 				0615610E2B08C17D00C178E3 /* Preview Content */,
 			);
@@ -278,10 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061561332B08C1B400C178E3 /* CompassHeading.swift in Sources */,
 				0615613E2B09125800C178E3 /* SwiftUIView.swift in Sources */,
 				0615610B2B08C17C00C178E3 /* ContentView.swift in Sources */,
 				061561352B08C1D100C178E3 /* Logic1.swift in Sources */,
+				06C3FB0E2B13E8F200B6234F /* CompassHeading.swift in Sources */,
 				063599D72B0B77FB00394666 /* Posizione.swift in Sources */,
 				061561092B08C17C00C178E3 /* BussolaApp.swift in Sources */,
 				061561372B08C1E900C178E3 /* Logic2.swift in Sources */,
